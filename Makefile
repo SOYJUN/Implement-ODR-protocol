@@ -31,4 +31,4 @@ client: client.o ${OBJ}
 	${CC} ${CFLAGS} -c $^
 
 clean:
-	rm odr_process odr_send odr_recv client server *.o
+	rm odr_process odr_send odr_recv client server *.o *~
